@@ -193,23 +193,29 @@ textarea {
   padding-top: 50px;
 }
 
+.team-img{
+  background-color: white;
+  border-radius: 50%;
+}
+
 .overlay3 {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
   top: 0;
   left: 0;
   width: 100%;
-  height: 0%;
+  height: 100%;
   opacity: 0;
   visibility: hidden;
   background: rgba(0, 0, 0, 0.9);
-  -webkit-transition: .7s ease;
-  -moz-transition: .7s ease;
-  -ms-transition: .7s ease;
-  -o-transition: .7s ease;
-  transition: .7s ease;
+  -webkit-transition: .1s ease;
+  -moz-transition: .1s ease;
+  -ms-transition: .1s ease;
+  -o-transition: .1s ease;
+  transition: .1s ease;
 
 }
 
@@ -5191,11 +5197,11 @@ textarea {
   height: 100%;
   visibility: visible;
   opacity: 1;
-  -webkit-transition: .7s ease;
-  -moz-transition: .7s ease;
-  -ms-transition: .7s ease;
-  -o-transition: .7s ease;
-  transition: .7s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
 
 }
 
