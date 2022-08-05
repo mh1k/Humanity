@@ -198,6 +198,10 @@ textarea {
   border-radius: 50%;
 }
 
+.team-address {
+  color: white !important;
+}
+
 .overlay3 {
   position: absolute;
   display: flex;
